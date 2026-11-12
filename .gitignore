@@ -5,4 +5,5 @@ __pycache__/
 *.mp4
 *.m3u8
 *.ts
+*.log
 .env
