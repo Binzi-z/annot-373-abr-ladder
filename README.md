@@ -10,11 +10,13 @@
 
 **没有**画质度量、**没有**码率寻优，档位是拍脑袋定的。
 
-## 环境
+## 环境（本机已实测）
 
-- Python 3.11+
-- ffmpeg（本机 `D:\tools\ffmpeg\ffmpeg.exe`，支持 `libvmaf`）
-- 可用 `set FFMPEG=...` 覆盖路径
+- Python 3.12.1
+- ffmpeg 9.0.2（本机 `D:\tools\ffmpeg\ffmpeg.exe`，带 `libvmaf`），可用 `set FFMPEG=...` 覆盖路径
+- **不需要 ffprobe**：`ladder.py` 用 `ffmpeg -i` 解析时长，本机也没有装 ffprobe
+- libvmaf 冒烟已通过：CRF28 档 vs 源，5 秒样本 → `VMAF score: 93.08`，exit 0
+- 30 秒 1080p 测试素材约 **390 MB**（testsrc2 + noise，接近无损）；要跑 10 分钟素材先看磁盘（D: 余量约 81 GB）
 
 ## 用法
 
