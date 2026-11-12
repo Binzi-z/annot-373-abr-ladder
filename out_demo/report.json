@@ -1,0 +1,200 @@
+{
+  "source": "D:\\work\\repo-373\\demo_src.mp4",
+  "generated_at": "2026-11-12 18:50:41",
+  "source_info": {
+    "duration_sec": 6.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "video_kbps": 108079
+  },
+  "config": {
+    "preset": "ultrafast",
+    "jobs": 4,
+    "x264_threads_per_job": 1,
+    "crf_sweep": [
+      30,
+      40
+    ],
+    "sample_segments": 1,
+    "sample_segment_len_sec": 2.0,
+    "sample_seed": 42,
+    "sample_windows": [
+      [
+        2.558,
+        4.558
+      ]
+    ],
+    "vmaf_model": "vmaf_v0.6.1",
+    "vmaf_target_gap": 1.6,
+    "vmaf_gap_hard_limit": 2.0,
+    "rung_count": 2,
+    "rel_tol": 0.08,
+    "max_eval_per_rung": 4,
+    "max_eval_total": 26
+  },
+  "crf_sweep": [
+    {
+      "crf": 30,
+      "bytes": 4670279,
+      "total_kbps": 6227.0,
+      "video_kbps": 6093,
+      "vmaf": 96.458,
+      "vmaf_p10": 95.852,
+      "vmaf_min": 93.225,
+      "seg_stdev": 0.0,
+      "seg_mean_harmonic": 96.458,
+      "encode_sec": 2.0,
+      "score_sec": 4.9
+    },
+    {
+      "crf": 40,
+      "bytes": 1200664,
+      "total_kbps": 1600.9,
+      "video_kbps": 1467,
+      "vmaf": 85.139,
+      "vmaf_p10": 83.382,
+      "vmaf_min": 81.779,
+      "seg_stdev": 0.0,
+      "seg_mean_harmonic": 85.139,
+      "encode_sec": 1.9,
+      "score_sec": 4.8
+    }
+  ],
+  "target_vmaf_grid": [
+    96.36,
+    88.36
+  ],
+  "rungs": [
+    {
+      "rung": 0,
+      "name": "1080p_r1",
+      "target_vmaf": 96.36,
+      "video_kbps": 7546,
+      "measured_vmaf": 97.141,
+      "mode": "best_measured",
+      "trials": [
+        {
+          "video_kbps": 6050,
+          "vmaf_mean": 96.141,
+          "vmaf_p10": 95.136,
+          "vmaf_min": 92.857
+        },
+        {
+          "video_kbps": 7620,
+          "vmaf_mean": 97.141,
+          "vmaf_p10": 96.556,
+          "vmaf_min": 93.764
+        },
+        {
+          "video_kbps": 6390,
+          "vmaf_mean": 96.296,
+          "vmaf_p10": 95.605,
+          "vmaf_min": 92.846
+        },
+        {
+          "video_kbps": 6480,
+          "vmaf_mean": 96.276,
+          "vmaf_p10": 95.438,
+          "vmaf_min": 92.685
+        }
+      ],
+      "bytes": 5759952,
+      "total_kbps": 7679.9,
+      "hls": "out_demo\\hls\\1080p_r1.m3u8",
+      "segment_detail": [
+        {
+          "start": 2.558,
+          "end": 4.558,
+          "frames": 60,
+          "mean": 97.141,
+          "min": 93.764
+        }
+      ]
+    },
+    {
+      "rung": 1,
+      "name": "1080p_r2",
+      "target_vmaf": 88.36,
+      "video_kbps": 6335,
+      "measured_vmaf": 96.238,
+      "mode": "best_measured",
+      "trials": [
+        {
+          "video_kbps": 2780,
+          "vmaf_mean": 91.839,
+          "vmaf_p10": 90.406,
+          "vmaf_min": 88.67
+        },
+        {
+          "video_kbps": 2560,
+          "vmaf_mean": 90.263,
+          "vmaf_p10": 88.858,
+          "vmaf_min": 86.738
+        },
+        {
+          "video_kbps": 2360,
+          "vmaf_mean": 90.297,
+          "vmaf_p10": 88.364,
+          "vmaf_min": 86.929
+        },
+        {
+          "video_kbps": 2170,
+          "vmaf_mean": 89.916,
+          "vmaf_p10": 88.114,
+          "vmaf_min": 86.179
+        },
+        {
+          "video_kbps": 4900,
+          "vmaf_mean": 95.042,
+          "vmaf_p10": 93.928,
+          "vmaf_min": 91.099,
+          "purpose": "gap_repair"
+        },
+        {
+          "video_kbps": 6260,
+          "vmaf_mean": 96.238,
+          "vmaf_p10": 95.376,
+          "vmaf_min": 92.714,
+          "purpose": "gap_repair"
+        }
+      ],
+      "gap_repaired_from": 4900,
+      "bytes": 4851620,
+      "total_kbps": 6468.8,
+      "hls": "out_demo\\hls\\1080p_r2.m3u8",
+      "segment_detail": [
+        {
+          "start": 2.558,
+          "end": 4.558,
+          "frames": 60,
+          "mean": 96.238,
+          "min": 92.714
+        }
+      ]
+    }
+  ],
+  "ladder_check": {
+    "adjacent_vmaf_drops": [
+      0.903
+    ],
+    "all_drops_below_hard_limit": true,
+    "gap_repairs": [
+      {
+        "name": "1080p_r2",
+        "from_kbps": 4900,
+        "unresolved": false
+      }
+    ],
+    "bitrate_monotonic": true
+  },
+  "runtime": {
+    "wall_sec": 47.6,
+    "sweep_encode_sec": 3.9,
+    "sweep_score_sec": 9.7,
+    "eval_encode_sec_sum": 19.9,
+    "eval_score_sec_sum": 48.5,
+    "eval_budget_left": 16
+  },
+  "master_playlist": "out_demo\\master.m3u8"
+}

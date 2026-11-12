@@ -1,7 +1,5 @@
 sample/
 out/
-out_test/
-work_smoke/
 __pycache__/
 *.pyc
 *.mp4
