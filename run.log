@@ -1,0 +1,22 @@
+[1/6] 源: 1920x1080 30.0fps duration=600.0s
+      硬切点 0 个；选定 10 段共 100.0s
+[2/6] 生成近无损参考 mezzanine ...
+[3/6] 逐档搜索最低码率 ...
+      1080p_top  target VMAF= 94.0 -> 4282 kbps (8 探针, rounded_up_to_verified_point, 0s)
+      1080p_high target VMAF= 92.5 -> 3008 kbps (8 探针, interpolated_verified, 0s)
+      1080p_mid  target VMAF= 91.0 -> 2282 kbps (8 探针, interpolated_verified, 0s)
+      720p_high  target VMAF= 89.5 -> 4639 kbps (8 探针, interpolated_verified, 0s)
+      720p_low   target VMAF= 88.0 -> 2164 kbps (8 探针, interpolated_verified, 442s)
+      540p_low   target VMAF= 86.5 -> 5500 kbps (10 探针, rounded_up_to_verified_point, 798s)
+      [码率告警] 1080p_mid(2282k) -> 720p_high(4639k)：低分辨率档码率反超高档，该分辨率对此内容可能低效
+      [码率告警] 720p_low(2164k) -> 540p_low(5500k)：低分辨率档码率反超高档，该分辨率对此内容可能低效
+[4/6] 整片最终编码（6 档）...
+      1080p_top  4282k -> 4394.9 kbps 实测, 185s
+      1080p_high 3008k -> 3120.4 kbps 实测, 205s
+      1080p_mid  2282k -> 2397.4 kbps 实测, 156s
+      720p_high  4639k -> 4772.1 kbps 实测, 137s
+      720p_low   2164k -> 2292.1 kbps 实测, 134s
+      540p_low   5500k -> 5636.1 kbps 实测, 118s
+[5/6] HLS 打包（fmp4 + master.m3u8）...
+[6/6] 汇总最终 VMAF 并写报告 ...
+完成，总耗时 2275.2s -> out\report.json

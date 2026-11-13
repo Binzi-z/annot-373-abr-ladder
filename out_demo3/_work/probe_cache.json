@@ -1,0 +1,492 @@
+{
+  "1080p_2500kbps": {
+    "vmaf_mean": 91.211932,
+    "vmaf_min": 82.740545,
+    "vmaf_harmonic_mean": 91.155756,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 2500,
+    "bitrate_kbps_measured": 2249.3
+  },
+  "1080p_12000kbps": {
+    "vmaf_mean": 96.457179,
+    "vmaf_min": 90.796879,
+    "vmaf_harmonic_mean": 96.430543,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 12000,
+    "bitrate_kbps_measured": 11709.1
+  },
+  "1080p_7250kbps": {
+    "vmaf_mean": 95.516076,
+    "vmaf_min": 89.219639,
+    "vmaf_harmonic_mean": 95.483929,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 7250,
+    "bitrate_kbps_measured": 7087.4
+  },
+  "1080p_4875kbps": {
+    "vmaf_mean": 94.165972,
+    "vmaf_min": 88.562144,
+    "vmaf_harmonic_mean": 94.131847,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 4875,
+    "bitrate_kbps_measured": 4480.0
+  },
+  "1080p_3688kbps": {
+    "vmaf_mean": 93.166848,
+    "vmaf_min": 86.596533,
+    "vmaf_harmonic_mean": 93.125013,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 3688,
+    "bitrate_kbps_measured": 3335.9
+  },
+  "1080p_4282kbps": {
+    "vmaf_mean": 93.660105,
+    "vmaf_min": 88.022516,
+    "vmaf_harmonic_mean": 93.624504,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 4282,
+    "bitrate_kbps_measured": 3931.4
+  },
+  "1080p_4578kbps": {
+    "vmaf_mean": 93.824061,
+    "vmaf_min": 87.970809,
+    "vmaf_harmonic_mean": 93.787316,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 4578,
+    "bitrate_kbps_measured": 4152.0
+  },
+  "1080p_4731kbps": {
+    "vmaf_mean": 93.932231,
+    "vmaf_min": 88.396183,
+    "vmaf_harmonic_mean": 93.899158,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 4731,
+    "bitrate_kbps_measured": 4287.4
+  },
+  "1080p_1800kbps": {
+    "vmaf_mean": 88.110025,
+    "vmaf_min": 78.832083,
+    "vmaf_harmonic_mean": 88.030339,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 1800,
+    "bitrate_kbps_measured": 1660.5
+  },
+  "1080p_9000kbps": {
+    "vmaf_mean": 95.891491,
+    "vmaf_min": 90.227702,
+    "vmaf_harmonic_mean": 95.863951,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 9000,
+    "bitrate_kbps_measured": 8653.7
+  },
+  "1080p_5400kbps": {
+    "vmaf_mean": 94.388334,
+    "vmaf_min": 88.142968,
+    "vmaf_harmonic_mean": 94.352337,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 5400,
+    "bitrate_kbps_measured": 5037.5
+  },
+  "1080p_3600kbps": {
+    "vmaf_mean": 93.110854,
+    "vmaf_min": 86.433714,
+    "vmaf_harmonic_mean": 93.072472,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 3600,
+    "bitrate_kbps_measured": 3253.5
+  },
+  "1080p_2700kbps": {
+    "vmaf_mean": 91.829247,
+    "vmaf_min": 83.732016,
+    "vmaf_harmonic_mean": 91.777418,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 2700,
+    "bitrate_kbps_measured": 2455.5
+  },
+  "1080p_3150kbps": {
+    "vmaf_mean": 92.417153,
+    "vmaf_min": 84.783263,
+    "vmaf_harmonic_mean": 92.365816,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 3150,
+    "bitrate_kbps_measured": 2849.6
+  },
+  "1080p_3375kbps": {
+    "vmaf_mean": 92.768978,
+    "vmaf_min": 86.209645,
+    "vmaf_harmonic_mean": 92.724065,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 3375,
+    "bitrate_kbps_measured": 3039.4
+  },
+  "1080p_3203kbps": {
+    "vmaf_mean": 92.449004,
+    "vmaf_min": 85.414056,
+    "vmaf_harmonic_mean": 92.403547,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 3203,
+    "bitrate_kbps_measured": 2866.6
+  },
+  "1080p_1200kbps": {
+    "vmaf_mean": 78.292603,
+    "vmaf_min": 70.089439,
+    "vmaf_harmonic_mean": 78.032861,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 1200,
+    "bitrate_kbps_measured": 1164.8
+  },
+  "1080p_7000kbps": {
+    "vmaf_mean": 95.304674,
+    "vmaf_min": 88.894988,
+    "vmaf_harmonic_mean": 95.269686,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 7000,
+    "bitrate_kbps_measured": 6740.9
+  },
+  "1080p_4100kbps": {
+    "vmaf_mean": 93.528592,
+    "vmaf_min": 88.110618,
+    "vmaf_harmonic_mean": 93.496105,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 4100,
+    "bitrate_kbps_measured": 3732.3
+  },
+  "1080p_2650kbps": {
+    "vmaf_mean": 91.492474,
+    "vmaf_min": 83.231148,
+    "vmaf_harmonic_mean": 91.43833,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 2650,
+    "bitrate_kbps_measured": 2379.2
+  },
+  "1080p_1925kbps": {
+    "vmaf_mean": 88.66577,
+    "vmaf_min": 78.565729,
+    "vmaf_harmonic_mean": 88.583721,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 1925,
+    "bitrate_kbps_measured": 1746.1
+  },
+  "1080p_2288kbps": {
+    "vmaf_mean": 90.568609,
+    "vmaf_min": 81.056742,
+    "vmaf_harmonic_mean": 90.497489,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 2288,
+    "bitrate_kbps_measured": 2071.5
+  },
+  "1080p_2469kbps": {
+    "vmaf_mean": 91.226412,
+    "vmaf_min": 81.475983,
+    "vmaf_harmonic_mean": 91.163459,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 2469,
+    "bitrate_kbps_measured": 2236.9
+  },
+  "1080p_2407kbps": {
+    "vmaf_mean": 90.981561,
+    "vmaf_min": 81.358389,
+    "vmaf_harmonic_mean": 90.921378,
+    "frames_scored": 60,
+    "height": 1080,
+    "width": 1920,
+    "bitrate_kbps_target": 2407,
+    "bitrate_kbps_measured": 2173.1
+  },
+  "720p_900kbps": {
+    "vmaf_mean": 81.000345,
+    "vmaf_min": 72.916063,
+    "vmaf_harmonic_mean": 80.767392,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 900,
+    "bitrate_kbps_measured": 745.0
+  },
+  "720p_5000kbps": {
+    "vmaf_mean": 89.543948,
+    "vmaf_min": 85.619609,
+    "vmaf_harmonic_mean": 89.524761,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 5000,
+    "bitrate_kbps_measured": 5021.6
+  },
+  "720p_2950kbps": {
+    "vmaf_mean": 89.150668,
+    "vmaf_min": 86.312279,
+    "vmaf_harmonic_mean": 89.136676,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 2950,
+    "bitrate_kbps_measured": 2899.5
+  },
+  "720p_3975kbps": {
+    "vmaf_mean": 89.590528,
+    "vmaf_min": 87.026845,
+    "vmaf_harmonic_mean": 89.578353,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 3975,
+    "bitrate_kbps_measured": 4062.3
+  },
+  "720p_3462kbps": {
+    "vmaf_mean": 89.444392,
+    "vmaf_min": 86.943329,
+    "vmaf_harmonic_mean": 89.433643,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 3462,
+    "bitrate_kbps_measured": 3411.9
+  },
+  "720p_3718kbps": {
+    "vmaf_mean": 89.661963,
+    "vmaf_min": 86.475608,
+    "vmaf_harmonic_mean": 89.650699,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 3718,
+    "bitrate_kbps_measured": 3614.5
+  },
+  "720p_3590kbps": {
+    "vmaf_mean": 89.60197,
+    "vmaf_min": 86.841469,
+    "vmaf_harmonic_mean": 89.590034,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 3590,
+    "bitrate_kbps_measured": 3562.5
+  },
+  "720p_3507kbps": {
+    "vmaf_mean": 89.557214,
+    "vmaf_min": 87.03823,
+    "vmaf_harmonic_mean": 89.54722,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 3507,
+    "bitrate_kbps_measured": 3448.2
+  },
+  "720p_600kbps": {
+    "vmaf_mean": 70.168418,
+    "vmaf_min": 61.176614,
+    "vmaf_harmonic_mean": 69.814878,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 600,
+    "bitrate_kbps_measured": 452.0
+  },
+  "720p_3500kbps": {
+    "vmaf_mean": 89.530556,
+    "vmaf_min": 86.923575,
+    "vmaf_harmonic_mean": 89.519207,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 3500,
+    "bitrate_kbps_measured": 3445.7
+  },
+  "720p_2050kbps": {
+    "vmaf_mean": 87.999199,
+    "vmaf_min": 84.493057,
+    "vmaf_harmonic_mean": 87.973052,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 2050,
+    "bitrate_kbps_measured": 2004.0
+  },
+  "720p_2775kbps": {
+    "vmaf_mean": 88.86356,
+    "vmaf_min": 85.634296,
+    "vmaf_harmonic_mean": 88.848375,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 2775,
+    "bitrate_kbps_measured": 2723.1
+  },
+  "720p_2412kbps": {
+    "vmaf_mean": 88.581738,
+    "vmaf_min": 85.577925,
+    "vmaf_harmonic_mean": 88.562492,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 2412,
+    "bitrate_kbps_measured": 2356.4
+  },
+  "720p_2231kbps": {
+    "vmaf_mean": 88.191296,
+    "vmaf_min": 84.022008,
+    "vmaf_harmonic_mean": 88.163818,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 2231,
+    "bitrate_kbps_measured": 2178.8
+  },
+  "720p_2140kbps": {
+    "vmaf_mean": 88.267004,
+    "vmaf_min": 84.006665,
+    "vmaf_harmonic_mean": 88.241836,
+    "frames_scored": 60,
+    "height": 720,
+    "width": 1280,
+    "bitrate_kbps_target": 2140,
+    "bitrate_kbps_measured": 2095.7
+  },
+  "540p_400kbps": {
+    "vmaf_mean": 69.616031,
+    "vmaf_min": 54.111221,
+    "vmaf_harmonic_mean": 69.065972,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 400,
+    "bitrate_kbps_measured": 305.5
+  },
+  "540p_2500kbps": {
+    "vmaf_mean": 85.725627,
+    "vmaf_min": 81.522326,
+    "vmaf_harmonic_mean": 85.699403,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 2500,
+    "bitrate_kbps_measured": 2468.4
+  },
+  "540p_5000kbps": {
+    "vmaf_mean": 86.380547,
+    "vmaf_min": 82.439655,
+    "vmaf_harmonic_mean": 86.35813,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 5000,
+    "bitrate_kbps_measured": 4891.9
+  },
+  "540p_10000kbps": {
+    "vmaf_mean": 87.297561,
+    "vmaf_min": 84.675365,
+    "vmaf_harmonic_mean": 87.284848,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 10000,
+    "bitrate_kbps_measured": 10298.8
+  },
+  "540p_5200kbps": {
+    "vmaf_mean": 86.418836,
+    "vmaf_min": 82.739128,
+    "vmaf_harmonic_mean": 86.397854,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 5200,
+    "bitrate_kbps_measured": 5103.1
+  },
+  "540p_7600kbps": {
+    "vmaf_mean": 86.871822,
+    "vmaf_min": 83.448297,
+    "vmaf_harmonic_mean": 86.854226,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 7600,
+    "bitrate_kbps_measured": 7698.3
+  },
+  "540p_6400kbps": {
+    "vmaf_mean": 86.699003,
+    "vmaf_min": 83.195427,
+    "vmaf_harmonic_mean": 86.68015,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 6400,
+    "bitrate_kbps_measured": 6371.8
+  },
+  "540p_5800kbps": {
+    "vmaf_mean": 86.550747,
+    "vmaf_min": 82.943927,
+    "vmaf_harmonic_mean": 86.530776,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 5800,
+    "bitrate_kbps_measured": 5723.4
+  },
+  "540p_5500kbps": {
+    "vmaf_mean": 86.420278,
+    "vmaf_min": 81.997558,
+    "vmaf_harmonic_mean": 86.395957,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 5500,
+    "bitrate_kbps_measured": 5420.0
+  },
+  "540p_5683kbps": {
+    "vmaf_mean": 86.499791,
+    "vmaf_min": 81.961119,
+    "vmaf_harmonic_mean": 86.475614,
+    "frames_scored": 60,
+    "height": 540,
+    "width": 960,
+    "bitrate_kbps_target": 5683,
+    "bitrate_kbps_measured": 5621.6
+  }
+}

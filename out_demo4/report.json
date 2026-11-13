@@ -1,0 +1,320 @@
+{
+  "source": "D:\\work\\repo-373\\demo_src.mp4",
+  "source_meta": {
+    "path": "D:\\work\\repo-373\\demo_src.mp4",
+    "duration_sec": 6.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "has_audio": true
+  },
+  "sampling": {
+    "n_segments": 1,
+    "clip_sec": 2.0,
+    "scored_seconds": 2.0,
+    "scene_cut_count": 0,
+    "scene_threshold": 0.35,
+    "segments": [
+      [
+        3.0,
+        5.0
+      ]
+    ]
+  },
+  "vmaf_config": {
+    "n_threads": 4,
+    "n_subsample": 6,
+    "model": "vmaf_v0.6.1 (ffmpeg libvmaf 默认)"
+  },
+  "rungs": [
+    {
+      "name": "1080p_top",
+      "height": 1080,
+      "target_vmaf": 94.0,
+      "min_kbps": 2500,
+      "max_kbps": 12000,
+      "width": 1920,
+      "bitrate_kbps": 6254,
+      "search_status": "interpolated_verified",
+      "file": "out_demo4\\1080p_top.mp4",
+      "bytes": 4903661,
+      "bitrate_kbps_measured_total": 6538.2,
+      "vmaf_final_mean": 94.336,
+      "vmaf_final_min": 91.258
+    },
+    {
+      "name": "1080p_high",
+      "height": 1080,
+      "target_vmaf": 92.5,
+      "min_kbps": 1800,
+      "max_kbps": 9000,
+      "width": 1920,
+      "bitrate_kbps": 4639,
+      "search_status": "interpolated_verified",
+      "file": "out_demo4\\1080p_high.mp4",
+      "bytes": 3712370,
+      "bitrate_kbps_measured_total": 4949.8,
+      "vmaf_final_mean": 93.949,
+      "vmaf_final_min": 91.199,
+      "vmaf_gap_vs_above": 0.387
+    },
+    {
+      "name": "1080p_mid",
+      "height": 1080,
+      "target_vmaf": 91.0,
+      "min_kbps": 1200,
+      "max_kbps": 7000,
+      "width": 1920,
+      "bitrate_kbps": 3660,
+      "search_status": "interpolated_verified",
+      "file": "out_demo4\\1080p_mid.mp4",
+      "bytes": 2937797,
+      "bitrate_kbps_measured_total": 3917.1,
+      "vmaf_final_mean": 92.96,
+      "vmaf_final_min": 89.376,
+      "vmaf_gap_vs_above": 0.989
+    },
+    {
+      "name": "720p_high",
+      "height": 720,
+      "target_vmaf": 89.5,
+      "min_kbps": 900,
+      "max_kbps": 5000,
+      "width": 1280,
+      "bitrate_kbps": 4141,
+      "search_status": "interpolated_verified",
+      "file": "out_demo4\\720p_high.mp4",
+      "bytes": 3242020,
+      "bitrate_kbps_measured_total": 4322.7,
+      "vmaf_final_mean": 89.543,
+      "vmaf_final_min": 88.68,
+      "vmaf_gap_vs_above": 3.417
+    },
+    {
+      "name": "720p_low",
+      "height": 720,
+      "target_vmaf": 88.0,
+      "min_kbps": 600,
+      "max_kbps": 3500,
+      "width": 1280,
+      "bitrate_kbps": 2653,
+      "search_status": "interpolated_verified",
+      "file": "out_demo4\\720p_low.mp4",
+      "bytes": 2144574,
+      "bitrate_kbps_measured_total": 2859.4,
+      "vmaf_final_mean": 88.319,
+      "vmaf_final_min": 86.866,
+      "vmaf_gap_vs_above": 1.224
+    },
+    {
+      "name": "540p_low",
+      "height": 540,
+      "target_vmaf": 86.5,
+      "min_kbps": 400,
+      "max_kbps": 2500,
+      "width": 960,
+      "bitrate_kbps": 6458,
+      "search_status": "interpolated_verified",
+      "file": "out_demo4\\540p_low.mp4",
+      "bytes": 4903135,
+      "bitrate_kbps_measured_total": 6537.5,
+      "vmaf_final_mean": 86.586,
+      "vmaf_final_min": 83.498,
+      "vmaf_gap_vs_above": 1.733
+    }
+  ],
+  "constraints": {
+    "adjacent_vmaf_gap_lt_2": false,
+    "violations": [
+      "1080p_mid->720p_high=3.42"
+    ],
+    "bitrate_monotonicity_warnings": [
+      {
+        "upper": "1080p_mid",
+        "lower": "720p_high",
+        "upper_kbps": 3660,
+        "lower_kbps": 4141,
+        "reason": "低分辨率档码率反超高档，该分辨率对此内容可能低效"
+      },
+      {
+        "upper": "720p_low",
+        "lower": "540p_low",
+        "upper_kbps": 2653,
+        "lower_kbps": 6458,
+        "reason": "低分辨率档码率反超高档，该分辨率对此内容可能低效"
+      }
+    ],
+    "enforce_monotonic": false
+  },
+  "probe_trails": {
+    "1080p_top": [
+      {
+        "bitrate_kbps": 2500,
+        "vmaf_mean": 91.19,
+        "vmaf_min": 83.631,
+        "bitrate_kbps_measured": 2211.4
+      },
+      {
+        "bitrate_kbps": 12000,
+        "vmaf_mean": 95.864,
+        "vmaf_min": 93.25,
+        "bitrate_kbps_measured": 10092.8
+      },
+      {
+        "bitrate_kbps": 7250,
+        "vmaf_mean": 94.746,
+        "vmaf_min": 92.464,
+        "bitrate_kbps_measured": 6069.9
+      },
+      {
+        "bitrate_kbps": 6254,
+        "vmaf_mean": 94.336,
+        "vmaf_min": 91.258,
+        "bitrate_kbps_measured": 5389.6
+      }
+    ],
+    "1080p_high": [
+      {
+        "bitrate_kbps": 1800,
+        "vmaf_mean": 86.505,
+        "vmaf_min": 77.73,
+        "bitrate_kbps_measured": 1562.3
+      },
+      {
+        "bitrate_kbps": 9000,
+        "vmaf_mean": 95.631,
+        "vmaf_min": 93.445,
+        "bitrate_kbps_measured": 7381.8
+      },
+      {
+        "bitrate_kbps": 5400,
+        "vmaf_mean": 94.108,
+        "vmaf_min": 91.45,
+        "bitrate_kbps_measured": 4770.9
+      },
+      {
+        "bitrate_kbps": 4639,
+        "vmaf_mean": 93.949,
+        "vmaf_min": 91.199,
+        "bitrate_kbps_measured": 4138.1
+      }
+    ],
+    "1080p_mid": [
+      {
+        "bitrate_kbps": 1200,
+        "vmaf_mean": 76.746,
+        "vmaf_min": 69.536,
+        "bitrate_kbps_measured": 1164.9
+      },
+      {
+        "bitrate_kbps": 7000,
+        "vmaf_mean": 94.846,
+        "vmaf_min": 91.802,
+        "bitrate_kbps_measured": 5915.1
+      },
+      {
+        "bitrate_kbps": 4100,
+        "vmaf_mean": 93.549,
+        "vmaf_min": 90.657,
+        "bitrate_kbps_measured": 3659.2
+      },
+      {
+        "bitrate_kbps": 3660,
+        "vmaf_mean": 92.96,
+        "vmaf_min": 89.376,
+        "bitrate_kbps_measured": 3443.6
+      }
+    ],
+    "720p_high": [
+      {
+        "bitrate_kbps": 900,
+        "vmaf_mean": 78.766,
+        "vmaf_min": 74.079,
+        "bitrate_kbps_measured": 578.1
+      },
+      {
+        "bitrate_kbps": 5000,
+        "vmaf_mean": 90.024,
+        "vmaf_min": 89.229,
+        "bitrate_kbps_measured": 5244.6
+      },
+      {
+        "bitrate_kbps": 2950,
+        "vmaf_mean": 88.774,
+        "vmaf_min": 87.576,
+        "bitrate_kbps_measured": 2754.2
+      },
+      {
+        "bitrate_kbps": 4141,
+        "vmaf_mean": 89.543,
+        "vmaf_min": 88.68,
+        "bitrate_kbps_measured": 3979.3
+      }
+    ],
+    "720p_low": [
+      {
+        "bitrate_kbps": 600,
+        "vmaf_mean": 63.163,
+        "vmaf_min": 56.09,
+        "bitrate_kbps_measured": 404.1
+      },
+      {
+        "bitrate_kbps": 3500,
+        "vmaf_mean": 89.461,
+        "vmaf_min": 88.241,
+        "bitrate_kbps_measured": 3242.4
+      },
+      {
+        "bitrate_kbps": 2050,
+        "vmaf_mean": 86.96,
+        "vmaf_min": 84.553,
+        "bitrate_kbps_measured": 1800.7
+      },
+      {
+        "bitrate_kbps": 2653,
+        "vmaf_mean": 88.319,
+        "vmaf_min": 86.866,
+        "bitrate_kbps_measured": 2495.6
+      }
+    ],
+    "540p_low": [
+      {
+        "bitrate_kbps": 400,
+        "vmaf_mean": 56.344,
+        "vmaf_min": 47.896,
+        "bitrate_kbps_measured": 272.7
+      },
+      {
+        "bitrate_kbps": 2500,
+        "vmaf_mean": 85.529,
+        "vmaf_min": 81.562,
+        "bitrate_kbps_measured": 2626.7
+      },
+      {
+        "bitrate_kbps": 5000,
+        "vmaf_mean": 86.379,
+        "vmaf_min": 82.865,
+        "bitrate_kbps_measured": 5099.5
+      },
+      {
+        "bitrate_kbps": 10000,
+        "vmaf_mean": 87.238,
+        "vmaf_min": 85.155,
+        "bitrate_kbps_measured": 10295.3
+      },
+      {
+        "bitrate_kbps": 5200,
+        "vmaf_mean": 86.238,
+        "vmaf_min": 82.906,
+        "bitrate_kbps_measured": 5235.5
+      },
+      {
+        "bitrate_kbps": 6458,
+        "vmaf_mean": 86.586,
+        "vmaf_min": 83.498,
+        "bitrate_kbps_measured": 6685.1
+      }
+    ]
+  },
+  "total_sec": 51.8
+}
